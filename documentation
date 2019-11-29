@@ -1,0 +1,24 @@
+The HTML code shows that once the submit button of the form is pressed, we are going to be taken to the addcontact.php page and this file will be executed.
+Next is I have written PHP code for adding data's from html to db using php
+
+addperson.php
+
+This PHP Code is separated into 7 blocks in order for us to review each part of the code and know what each part is doing.
+
+Block 1 is where you enter all of the information to your MySQL server. This is so that you can later make a connection to your server to connect to the table of your database to insert the user's info into.
+
+Block 2 is the code used to retrieve the information that the user entered into the HTML form field. All of the user's information is saved within the PHP variables.
+
+Block 3 is the code used to make a connection to the MySQL server and the desired database you would like to connect to.
+
+Block 4 is the code to insert the user's information into the table specified in the $table variable. This is the table that will hold all information that users enter to join this email list.
+
+Block 5 is the code that actually executes the insertion of the data into the database.
+
+Block 6 is the code, if all goes right and there are no errors, that prints the statement that the user has been added to the email list. So their data is now saved in the database.
+
+Block 7 closes the database connection.
+
+Create_db.js
+In this I have created a database and added a table called List to it.
+
